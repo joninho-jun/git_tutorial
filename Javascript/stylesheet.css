@@ -1,0 +1,49 @@
+#table{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+}
+.selected{
+    background-color: lightsalmon;
+}
+.notselected{
+    background-color: white;
+}
+.maru{
+    font-size: 80px;
+    color: blue;
+}
+.batu{
+    font-size: 80px;
+    color: red;
+}
+#counter{
+    width: 40px;
+    margin: 0 auto;
+    font-size: 40px;
+}
+.effect{
+    background-color: limegreen;
+}
+.table{
+    display:none;
+}
+
+.visible{
+    display: block; 
+}
+#btn_css{
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.visible_none{
+    display: none;
+}
