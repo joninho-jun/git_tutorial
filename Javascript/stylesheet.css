@@ -43,7 +43,13 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-
 .visible_none{
     display: none;
+}
+.return_btn_css{
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }

@@ -10,8 +10,9 @@ const line = [
 //オブジェクト化
 const cell = document.querySelectorAll(".cell");
 const count = document.getElementById("counter");
-const start_btn = document.getElementById("btn");
+const start_btn = document.getElementById("start_btn");
 const table = document.getElementById("table");
+const manual_btn = document.getElementById("manual_btn");
 let time = 10;
 for(let i=0; i < cell.length;i++){
     //セルが選択された時に色を変える
@@ -29,7 +30,7 @@ for(let i=0; i < cell.length;i++){
         table.classList.add("visible");
         count.textContent = " ";
         start_btn.classList.add("visible_none");
-        timer();
+        manual_btn.classList.add("visible_none");
     });
 
 //選択されたセルに〇×を入力する
