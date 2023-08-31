@@ -53,3 +53,31 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+#lock-number{
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    background-color: aliceblue;
+
+}
+#user-name-form{
+    width: 145px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#name-label{
+    width: 80px;
+    margin: 0 auto;
+    padding: 28px;
+    font-family:'Avenir';
+}
+#login-reset-btn{
+    width: 104px;
+    padding: 20px;
+    margin: 0 auto;
+}
+#login-form{
+    width: 400px;
+    margin:0 auto;
+    background-color: lightskyblue;
+}
